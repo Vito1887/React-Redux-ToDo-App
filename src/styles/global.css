@@ -1,0 +1,42 @@
+@font-face {
+    font-family: 'oblique';
+}
+
+body {
+    margin: 0;
+    font-family: BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+/* ------- TEXT STYLES ------- */
+
+
+.text-style-uppercase {
+    text-transform: uppercase;
+}
+
+.text-style-lefted {
+    text-align: left;
+}
+
+.text-style-centered {
+    text-align: center;
+}
+
+.text-style-righted {
+    text-align: right;
+}
+
+.text-style-thick {
+    font-weight: var(--WEIGHT_900);
+}
+

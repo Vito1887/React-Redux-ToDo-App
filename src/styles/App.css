@@ -19,6 +19,22 @@
     width: 800px;
 }
 
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 30px;
+    gap: 14px;
+}
+
+.hr {
+    margin: 15px 0
+}
+
+.footer {
+    margin-bottom: 40px;
+}
+
 .post-enter {
     transform: translateX(-350px);
 }
@@ -37,7 +53,7 @@
     transition: all 500ms ease-in;
 }
 
-.Input_myInput__g6FmW {
+.input_input__g6FmW {
     background-color: #E4E9CB;
     opacity: 0.5;
 }
