@@ -8,6 +8,8 @@ module.exports = {
     '^package.json$',
     '^src/(.*)$',
     '^[./]',
+    '^(?!src)(.*)\\.css$',
+    '^src/styles/(.*)\\.css$',
   ],
   importOrderSeparation: true,
   importOrderSortSpecifiers: true,

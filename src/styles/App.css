@@ -1,69 +1,69 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    color: black;
-    font-weight: 900;
-    font-style: oblique;
-    background-color: #E4E9CB;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: black;
+  font-weight: 900;
+  font-style: oblique;
+  background-color: #e4e9cb;
 }
 
 #root {
-    width: 100vw;
-    display: flex;
-    justify-content: center;
-    background-color: #E4E9CB;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  background-color: #e4e9cb;
 }
 
-.App {
-    width: 800px;
+.app {
+  width: 800px;
 }
 
 .header {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin-top: 30px;
-    gap: 14px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 30px;
+  gap: 14px;
 }
 
 .hr {
-    margin: 15px 0
+  margin: 15px 0;
 }
 
 .footer {
-    margin-bottom: 40px;
+  margin-bottom: 40px;
 }
 
 .post-enter {
-    transform: translateX(-350px);
+  transform: translateX(-350px);
 }
 
 .post-enter-active {
-    transform: translateX(0px);
-    transition: all 500ms ease-in;
+  transform: translateX(0px);
+  transition: all 500ms ease-in;
 }
 
 .post-exit {
-    opacity: 1;
+  opacity: 1;
 }
 
 .post-exit-active {
-    transform: translateX(-350px);
-    transition: all 500ms ease-in;
+  transform: translateX(-350px);
+  transition: all 500ms ease-in;
 }
 
 .input_input__g6FmW {
-    background-color: #E4E9CB;
-    opacity: 0.5;
+  background-color: #e4e9cb;
+  opacity: 0.5;
 }
 
 select {
-    background-color: #E4E9CB;
+  background-color: #e4e9cb;
 }
 
 .backgroundImage {
-    height: 100vh;
-    width: 100vw;
-    vertical-align: bottom;
+  height: 100vh;
+  width: 100vw;
+  vertical-align: bottom;
 }
