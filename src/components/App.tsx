@@ -13,7 +13,7 @@ import {
   updateItem,
 } from 'src/redux/reducers/posts';
 import 'src/styles/App.css';
-import { Post } from 'src/types.ts';
+import { Post } from 'src/types';
 
 import React, { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';

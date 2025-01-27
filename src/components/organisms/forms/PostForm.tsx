@@ -1,6 +1,6 @@
 import { Input } from 'src/components/atoms/Input';
 import { Button } from 'src/components/atoms/buttons/Button';
-import { Post } from 'src/types.ts';
+import { Post } from 'src/types';
 
 import React, { useState } from 'react';
 

@@ -1,50 +1,49 @@
 :root {
-    --FONT_DEFAULT: oblique;
+  --FONT_DEFAULT: oblique;
 
-    --WEIGHT_NORMAL: 500;
-    --WEIGHT_900: 900;
+  --WEIGHT_NORMAL: 500;
+  --WEIGHT_900: 900;
 
-    --OPACITY_05: 0.5;
-    --OPACITY_1: 1;
+  --OPACITY_05: 0.5;
+  --OPACITY_1: 1;
 
-    --FONT_SIZE_SUB_TEXT: 12px;
-    --FONT_SIZE_TEXT: 14px;
+  --FONT_SIZE_SUB_TEXT: 12px;
+  --FONT_SIZE_TEXT: 14px;
 
-    --LINE_HEIGHT_14: 14px;
-    --LINE_HEIGHT_16: 16px;
+  --LINE_HEIGHT_14: 14px;
+  --LINE_HEIGHT_16: 16px;
 
+  --COLOR_FOREGROUND: rgba(255, 255, 255, 1); /* #FFFFFF */
+  --COLOR_EGG: rgba(228, 233, 203, 1); /* #E4E9CB */
 
-    --COLOR_FOREGROUND: rgba(255, 255, 255, 1); /* #FFFFFF */
-    --COLOR_EGG: rgba(228, 233, 203, 1); /* #E4E9CB */
+  --SIZE_BORDER: 1px;
+  --SIZE_BORDER_THICK: 2px;
+  --SIZE_TOP_LINE: 4px;
 
-    --SIZE_BORDER: 1px;
-    --SIZE_BORDER_THICK: 2px;
-    --SIZE_TOP_LINE: 4px;
+  --SIZE_8: 8px;
+  --SIZE_10: 10px;
+  --SIZE_12: 12px;
+  --SIZE_14: 14px;
+  --SIZE_16: 16px;
+  --SIZE_20: 20px;
+  --SIZE_400: 400px;
 
-    --SIZE_8: 8px;
-    --SIZE_10: 10px;
-    --SIZE_12: 12px;
-    --SIZE_14: 14px;
-    --SIZE_16: 16px;
-    --SIZE_20: 20px;
-    --SIZE_400: 400px;
+  --RADIUS_5: 5px;
+  --RADIUS_6: 6px;
+  --RADIUS_10: 10px;
+  --RADIUS_12: 12px;
 
-    --RADIUS_5: 5px;
-    --RADIUS_6: 6px;
-    --RADIUS_10: 10px;
-    --RADIUS_12: 12px;
+  --MARGIN_4: 4px;
+  --MARGIN_6: 6px;
+  --MARGIN_8: 8px;
+  --MARGIN_10: 10px;
+  --MARGIN_12: 12px;
 
-    --MARGIN_4: 4px;
-    --MARGIN_6: 6px;
-    --MARGIN_8: 8px;
-    --MARGIN_10: 10px;
-    --MARGIN_12: 12px;
-
-    --PADDING_2: 2px;
-    --PADDING_4: 4px;
-    --PADDING_6: 6px;
-    --PADDING_8: 8px;
-    --PADDING_10: 10px;
-    --PADDING_12: 12px;
-    --PADDING_14: 14px;
+  --PADDING_2: 2px;
+  --PADDING_4: 4px;
+  --PADDING_6: 6px;
+  --PADDING_8: 8px;
+  --PADDING_10: 10px;
+  --PADDING_12: 12px;
+  --PADDING_14: 14px;
 }

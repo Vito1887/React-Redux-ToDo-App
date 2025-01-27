@@ -1,7 +1,7 @@
 import { Button } from 'src/components/atoms/buttons/Button';
 import { PostForm } from 'src/components/organisms/forms/PostForm';
 import { CreatePost } from 'src/components/routes/modals/CreatePost';
-import { Post } from 'src/types.ts';
+import { Post } from 'src/types';
 
 import React from 'react';
 

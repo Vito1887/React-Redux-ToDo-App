@@ -1,5 +1,5 @@
 import { PostItem } from 'src/components/molecules/PostItem';
-import { Post } from 'src/types.ts';
+import { Post } from 'src/types';
 
 import React from 'react';
 import { CSSTransition, TransitionGroup } from 'react-transition-group';

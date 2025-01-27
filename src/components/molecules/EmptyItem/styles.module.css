@@ -1,16 +1,16 @@
 .container {
-    display: flex;
-    align-items: center;
-    margin-top: 15px;
-    padding: 15px;
-    border: 2px solid teal;
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+  padding: 15px;
+  border: 2px solid teal;
 }
 
 .button {
-    width: 100%;
-    display: flex;
-    justify-content: start;
-    padding: 0;
-    border-width: 0;
-    color: black;
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  padding: 0;
+  border-width: 0;
+  color: black;
 }

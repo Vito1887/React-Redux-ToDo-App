@@ -15,18 +15,16 @@ export const CreatePost: React.FC<Props> = ({
   children,
   visible,
   setVisible,
-}) => {
-  return (
-    <Box
-      onClick={() => setVisible(false)}
-      visible={visible}
-      className={classNames(styles.modal, {
-        [styles.active]: visible,
-      })}
-    >
-      <div className={styles.content} onClick={(e) => e.stopPropagation()}>
-        {children}
-      </div>
-    </Box>
-  );
-};
+}) => (
+  <Box
+    onClick={() => setVisible(false)}
+    visible={visible}
+    className={classNames(styles.modal, {
+      [styles.active]: visible,
+    })}
+  >
+    <div className={styles.content} onClick={(e) => e.stopPropagation()}>
+      {children}
+    </div>
+  </Box>
+);

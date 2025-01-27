@@ -1,4 +1,4 @@
-import { Post } from 'src/types.ts';
+import { Post } from 'src/types';
 
 import { createSlice } from '@reduxjs/toolkit';
 

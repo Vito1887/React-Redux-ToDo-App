@@ -1,8 +1,9 @@
 import 'src/styles/global.css';
 import 'src/styles/theme.css';
 
-import 'antd/dist/reset.css';
 import React, { ReactNode } from 'react';
+
+import 'antd/dist/reset.css';
 
 type Props = {
   children: ReactNode;
